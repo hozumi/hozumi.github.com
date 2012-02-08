@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IRC + Threads = better communications
+title: IRC + Threads make better communications - Pizzatimes.org
 ---
 
 # {{page.title}}
