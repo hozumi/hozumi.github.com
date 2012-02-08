@@ -22,8 +22,8 @@ We can communicate lightly, but conversations are hardly grasped after a few hou
 Thread model is also simple and is used widely by Google Groups, Reddit and many other forums.
 In order to discuss specific topic, this structure is very obvious for everyone.
 I think, however, there are some problems in this model.
-First, we must create a thread to start communication. Sometimes, I want to ask a tiny things which I would hesitate to create a new thread to talk about.
-Second, as a thread grow it tends to mix various subtopics which are slightly related to main topic. Then it is not easy to grasp conversations.
+Firstly, we must create a thread to start communication. Sometimes, I want to ask a tiny things which I would hesitate to create a new thread to talk about.
+Secondly, as a thread grow it tends to mix various subtopics which are slightly related to main topic. Then it is not easy to grasp conversations.
 
 ### Pizzatimes
 <img src="/images/2012-02-08-pizzatimes.png" />
