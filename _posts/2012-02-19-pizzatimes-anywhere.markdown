@@ -7,7 +7,7 @@ title: Pizzatimes.org Anywhere - BBS on any site, any page.
 
 <span class="meta">February 19 2012</span>
 
-Today I added new feature [Pizzatimes.org Anywhere](https://chrome.google.com/webstore/detail/bplpkhmcklnghjkiflchdmkmegcoamle) to [pizzatimes.org](http://pizzatimes.org/top).<br>
+Today I've added new feature [Pizzatimes.org Anywhere](https://chrome.google.com/webstore/detail/bplpkhmcklnghjkiflchdmkmegcoamle) to [pizzatimes.org](http://pizzatimes.org/top).<br>
 About pizzatimes.org itself, see [my previous article](/2012/02/pizzatimes.html).<br>
 Pizzatimes.org Anywhere is a Chrome Extension which enable us to communicate on any web site, using pizzatimes.org BBS system.<br>
 [Install page](https://chrome.google.com/webstore/detail/bplpkhmcklnghjkiflchdmkmegcoamle)
