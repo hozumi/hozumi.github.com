@@ -87,7 +87,7 @@ DynamoDBはただのブロックデバイス的に使われているだけなの
 
 ### 現段階ではJVMのみ
 今のところ利用出来る言語はJVM系に限られています。
-[今後、他の言語もサポートもする予定](http://datomic.com/company/faq)とのことです。
+[今後、他の言語もサポートする予定](http://datomic.com/company/faq)とのことです。
 
 ### 価格
 AWSにかかる料金に加え、Datomicの料金が Transactor に接続しているノード数 * 0.1$ / h かかります。
