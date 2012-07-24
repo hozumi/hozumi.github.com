@@ -7,7 +7,7 @@ title: Clojureの作者が作ったデータベースサービス Datomic.com �
 
 <div class="meta">March 8 2012</div>
 
-<img src="http://datomic.com/assets/logo.png" style="display:block; margin: 0 auto;" />
+<img src="http://www.datomic.com/uploads/3/5/9/7/3597326/1342634043.png" style="display:block; margin: 0 auto;" />
 プログラミング言語[Clojure](http://clojure.org/)の作者Rich Hickey氏率いるClojure Hackerのチームが[datomic.com](http://datomic.com/)(デートミックと発音するらしい)というデータベースサービスをリリースしました。これが何やらとてつもないです。10年先を行ってる技術じゃないでしょうか。
 まだ本番サービスは始まっていませんが開発環境用のライブラリが配布されています。
 Datomicは斬新なアーキテクチャなので一言で説明するのはとても難しいです。
