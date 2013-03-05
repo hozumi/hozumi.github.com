@@ -31,29 +31,29 @@ img.floatleft {
 
 body {
   background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
+  font: 14px helvetica, arial, clean, sans-serif;
   text-align: center;
 }
 
-h1 {
-  font-size: 130%;
-}
-
-h2 {
-  font-size: 110%;
-}
-
-h3 {
+h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
 }
 
 h1 {
-  margin: 0.3em 0;
+  margin-top: 0.3em;
+}
+
+h2 {
+  color: #8bb626;
+}
+
+h3 {
+  color: #333;
 }
 
 p {
-  margin: 1em 0;
+  margin-top: 0.1em;
+  margin-bottom: 1em;
 }
 
 a {
@@ -135,6 +135,7 @@ ul.posts {
 
   .site .meta {
     color: #aaa;
+    margin-bottom: 1em;
   }
 
   .site .footer {
