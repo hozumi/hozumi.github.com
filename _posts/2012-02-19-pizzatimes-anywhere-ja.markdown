@@ -5,7 +5,7 @@ title: どこでも掲示板になる Chrome拡張 Pizzatimes.org Anywhere を�
 
 # {{page.title}}
 
-<span class="meta">February 19 2012</span>
+<div class="meta">February 19 2012</div>
 
 
 掲示板サービス[Pizzatimes.org](http://pizzatimes.org/top)に新機能、[Pizzatimes.org Anywhere](https://chrome.google.com/webstore/detail/bplpkhmcklnghjkiflchdmkmegcoamle) を付けました。

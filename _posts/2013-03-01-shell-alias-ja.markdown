@@ -5,7 +5,7 @@ title: なぜ、シェルでエイリアスの使用は控えた方がいいの�
 
 # {{page.title}}
 
-<span class="meta">March 1 2013</span>
+<div class="meta">March 1 2013</div>
 
 #エイリアスの解決しようとした問題
 長いコマンドをいちいち入力するのは面倒だ。

@@ -5,7 +5,7 @@ title: IRC + Threads make better communications - Pizzatimes.org
 
 # {{page.title}}
 
-<span class="meta">February 8 2012</span>
+<div class="meta">February 8 2012</div>
 
 Last week, I released [Pizzatimes.org](http://pizzatimes.org/top), a message board service. You might think that another reddit clone is reinvented. Let me explain how differerent it is from traditional structures and why it encourages better communications.
 

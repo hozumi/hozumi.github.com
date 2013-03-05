@@ -5,7 +5,7 @@ title: Pizzatimes.org Anywhere - BBS on any site, any page.
 
 # {{page.title}}
 
-<span class="meta">February 19 2012</span>
+<div class="meta">February 19 2012</div>
 
 Today I've added new feature [Pizzatimes.org Anywhere](https://chrome.google.com/webstore/detail/bplpkhmcklnghjkiflchdmkmegcoamle) to [pizzatimes.org](http://pizzatimes.org/top).<br>
 About pizzatimes.org itself, see [my previous article](/2012/02/pizzatimes.html).<br>

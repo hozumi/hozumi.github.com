@@ -5,7 +5,7 @@ title: IRCと掲示板を足したような掲示板Pizzatimesをリリースし
 
 # {{page.title}}
 
-<span class="meta">February 8 2012</span>
+<div class="meta">February 8 2012</div>
 
 
 先週[Pizzatimes.org](http://pizzatimes.org/top)という掲示板サービスをリリースしました。
