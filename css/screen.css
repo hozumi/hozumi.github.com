@@ -52,6 +52,10 @@ h3 {
   color: #333;
 }
 
+.highlight {
+  margin: 1em 0;
+}
+
 p {
   margin-top: 0.1em;
   margin-bottom: 1em;
