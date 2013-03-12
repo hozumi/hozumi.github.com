@@ -143,6 +143,26 @@ def git_update():
 などなど、用意したファイルをパーミッションとオーナーに気をつけて設置するだけで設定のかなりがカバーできます。
 そんなに凝ったことをやらないのであれば重厚なツールを使うのはオーバーキル感があります。
 
+*設定ファイル設置例*
+{% highlight python %}
+# -*- coding: utf-8 -*-
+from fabric.api import run, cd, put
+
+# rootで実行
+def initial_setting():
+    put("setup_files/passwd", "/etc/passwd", mirror_local_mode=True)
+    put("setup_files/shadow", "/etc/shadow", mirror_local_mode=True)
+    put("setup_files/group", "/etc/group", mirror_local_mode=True)
+    put("setup_files/myuser", "/home", mirror_local_mode=True)
+    run("chmod 0700 /home/myuser")
+    run("chown -R myuser:staff /home/myuser")
+    put("setup_files/sshd_config", "/etc/ssh/sshd_config",
+        mirror_local_mode=True)
+    put("setup_files/sudoers", "/etc/sudoers", mirror_local_mode=True)
+    put("setup_files/iptables", "/etc/sysconfig/iptables", mode=0600)
+    run("shutdown -r now")
+{% endhighlight %}
+
 ##構築と運用の垣根が低い
 構築で使ったタスクを運用時に活用したり、その逆が容易です。
 有機的に無理なくスクリプトを育てることができます。
