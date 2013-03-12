@@ -159,7 +159,8 @@ def initial_setting():
     put("setup_files/sshd_config", "/etc/ssh/sshd_config",
         mirror_local_mode=True)
     put("setup_files/sudoers", "/etc/sudoers", mirror_local_mode=True)
-    put("setup_files/iptables", "/etc/sysconfig/iptables", mode=0600)
+    put("setup_files/iptables", "/etc/sysconfig/iptables",
+        mirror_local_mode=True)
     run("shutdown -r now")
 {% endhighlight %}
 
