@@ -65,8 +65,8 @@ h3 {
   margin: 1em 0;
 }
 
-p {
-  line-height: 2;
+p, li {
+  line-height: 1.8;
 }
 
 a {
