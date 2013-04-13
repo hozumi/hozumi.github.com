@@ -3,5 +3,5 @@ auto:        true
 lsi:         false
 server_port: 4000
 pygments:    true
-markdown:    maruku
+markdown:    rdiscount
 permalink:   /:year/:month/:title.html
