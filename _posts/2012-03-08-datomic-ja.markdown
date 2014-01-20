@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clojureの作者が作ったデータベースサービス Datomic.com が凄い
+title: Clojureの作者が作ったデータベースDatomicが凄い
 ---
 
 # {{page.title}}
@@ -8,13 +8,13 @@ title: Clojureの作者が作ったデータベースサービス Datomic.com �
 <div class="meta">March 8 2012</div>
 
 <img src="http://docs.datomic.com/impl/logo.png" style="display:block; margin: 0 auto;" />
-プログラミング言語[Clojure](http://clojure.org/)の作者Rich Hickey氏率いるClojure Hackerのチームが[datomic.com](http://datomic.com/)(デートミックと発音するらしい)というデータベースサービスをリリースしました。これが何やらとてつもないです。10年先を行ってる技術じゃないでしょうか。
+プログラミング言語[Clojure](http://clojure.org/)の作者Rich Hickey氏率いるClojure Hackerのチームが[Datomic](http://datomic.com/)(デートミックと発音するらしい)というデータベースをリリースしました。これが何やらとてつもないです。10年先を行ってる技術じゃないでしょうか。
 まだ本番サービスは始まっていませんが開発環境用のライブラリが配布されています。
 Datomicは斬新なアーキテクチャなので一言で説明するのはとても難しいです。
 私が理解できたことを簡単に説明します。
 
-###2012/7/25 追記
-ライセンスモデル、サポートストレージ、サービスとしてではなく独立して使用可になるなど本記事の内容から色々変更になっています。公式サイト[datomic.com](http://datomic.com/)を参照してください。
+###2014/1/20追記
+ライセンスモデル、サポートストレージ、サービスとしてではなく独立して使用する形になるなど記事作成時の内容から色々変更が合った部分を更新しました。
 
 ## 変更不可なAppend-onlyデータベース
 従来のデータベースで、あるレコードを変更するというのはそのレコードに対応した**場所**があり、そこのデータを書き換えるということを意味していました。<br>
@@ -59,7 +59,7 @@ Peerが必要なデータを取り寄せる? インデックスはどうする�
 
 ## ユーザ定義可能な強力なトランザクション
 新たな事実の追加は全て**Transactor**を介してトランザクション処理され完全に順序付けされます。<br>
-更に驚くべきことにトランザクションの中でユーザ定義の処理を走らせることができるみたいです。
+更にトランザクションの中でユーザ定義の処理を走らせることができるみたいです。
 [Rich の Hacker News コメント参照](http://news.ycombinator.com/item?id=3677736)<br>
 これは数字のインクリメントやCASなどをユーザ自身で定義でき、それがアトミックに処理できるということを意味しています。<br>
 
@@ -84,10 +84,20 @@ DynamoDBがバックエンドとして使われていますが、そこは大し
 [「DatomicがDynamoDBに付けた価値は伝統的なデータベースのファイルシステムに対するそれ」](http://datomic.com/company/faq)<br>
 DynamoDBはただのブロックデバイス的に使われているだけなのです。<br>
 また[「DynamoDB以外の選択肢は**まだ**ない」](http://twitter.com/richhickey/status/176760939352305666)との事なので今後他のストレージもサポートされるかもしれません。
+###2014/1/20追記
+いろいろバックエンドとして使用できるストレージが増えました。下記の価格をご参照ください。
 
 ## 現段階ではJVMのみ
 今のところ利用出来る言語はJVM系に限られています。
 [今後、他の言語もサポートする予定](http://datomic.com/company/faq)とのことです。
+###2014/1/20追記
+JVM以外の言語からは一つのPeerを経由してREST APIでアクセスできます。
+
+## 価格
+###2014/1/20更新
+無料のFree Editionと有料のPro Editionがあります。
+Free EditionはPeerが２つまでTransactorに接続でき、バックエンドとして使用できるストレージがPeerのメモリーとTransactorのローカルディスクです。メモリーは主に開発時やテストの時に便利です。
+Pro Editionは料金に応じて接続できるPeerの数が増え、バックエンドとして使用できるストレージがDynamoDB、PostgreSQL等のRDB、Riak、Couchbase、Cassandra、Infinispan memory clusterです。
 
 ## 感想
 [Hacker News](http://news.ycombinator.com/item?id=3667049)でもかなりの人が一体なんなんだこれはと戸惑ってる感じでした。
